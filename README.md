@@ -4,7 +4,7 @@ An MW2 Inspired heartbeat sensor
 
 # Features
 
-Track up to 3 targets simultaneously
+*(Eventually) Track up to 3 targets simultaneously
 
 Detects distance and velocity of targets
 
