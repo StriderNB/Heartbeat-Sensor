@@ -3,6 +3,18 @@
 An MW2 Inspired heartbeat sensor
 
 # Features
+
+Track up to 3 targets simultaneously
+
+Detects distance and velocity of targets
+
+Seamless tracking and screen refreshing
+
+Can be powered by usb-c port or rechargeable battery
+
+Brightness control
+
+# Main Hardware
 XIAO-ESP32-S3
 
 24G HLK-LD2450 Radar Sensor
@@ -11,15 +23,14 @@ ST7789V 2.8 Inch SPI Display
 
 Rechargeable 3.7V LiPo Battery
 
-Brightness control
-
-On and off switch
-
 # Wiring
 All connections are visible in image of schematic at bottom of page. It's currently designed to be wired by hand, but can be easily adapted to fit on a pcb.
 
 # Software
 Requires TFT_eSPI.h by Bodmer and SPI.h libraries
+
+# Code
+Still in progress and untested. Although it should be the bare minimum to get the project working.
 
 # BOM
 | Item | Qty | Supplier | Cost/item | Total Cost | Link |
@@ -36,7 +47,7 @@ Requires TFT_eSPI.h by Bodmer and SPI.h libraries
 | Estimated total shipping | 1 | | | $9.83 | |
 | TOTAL  |  | | | $47.87 | |
 
-# More Images
+# Images
 <img width="1506" height="755" alt="Screenshot 2026-11-01 213412" src="https://github.com/user-attachments/assets/c2db5e41-115f-4972-b4d1-01c95eda2c18" />
 <img width="1214" height="836" alt="Screenshot 2026-11-01 213437" src="https://github.com/user-attachments/assets/5b2c5da9-e3ac-4b32-80b8-f91a99e886c3" />
 <img width="1125" height="741" alt="Screenshot 2026-11-01 213613" src="https://github.com/user-attachments/assets/33d3df19-21a2-4cec-980c-1e9cbfe3c69d" />
